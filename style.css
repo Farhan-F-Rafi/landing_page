@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+
+.btn{
+    @apply bg-[#4CAF4F] rounded-[0.174rem] text-white px-5 py-2;
+}
+@tailwind utilities;
+body,html{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
